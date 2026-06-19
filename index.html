@@ -28,11 +28,16 @@
       border-radius: 4px;
     }
     .action-btn {
-      width: 100%;
+      width: fit-content;
+      min-width: 50%;
       background: #ff800a;
-      border-radius: 8px;
+      border-radius: 25px;
       cursor: pointer;
       margin-top: 8px;
+      transition: opacity 0.15s ease;
+    }
+    .action-btn:active {
+      opacity: 0.9;
     }
     .card {
       position: relative;
